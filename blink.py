@@ -4,7 +4,7 @@ import time
 led = gpiozero.LED(4)
 n=1
 
-while n<11:
+while True:
    led.on()
    time.sleep(0.5)
    led.off()
