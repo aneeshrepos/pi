@@ -1,9 +1,9 @@
-from tkinter import*
+from tkinter import *
 
 window = Tk()
-window title('''title of the experiment''')
+window.title('''title of the experiment''')
 
-window geometry('''no of pixels within single quotes'''
+window.geometry('''no of pixels within single quotes'''
 
 b1 = Button(window,text = '''text to be placed in the button,command = function defined on top''')
 b1.grid('''row = pixelated value, column = pixelated value''')
